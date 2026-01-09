@@ -212,3 +212,33 @@
     color: #627382;
 
 }
+/* footer section  */
+.footer-section{
+    /* height: 350px; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 80px;
+    background-color: #001931;
+    /* flex-wrap: wrap; */
+}
+.footer-content{
+    margin-top: 100px;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    gap: 20px;
+}
+.footer-content p{
+    color: white;
+}
+.footer-content li{
+    color: white;
+    list-style-type: none;
+}
+.credit{
+    font-size: 13px;
+    text-align: center;
+}
